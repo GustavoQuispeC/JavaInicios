@@ -16,12 +16,12 @@ public class Principal {
         podcast.setPresentador("Gustavo");
         podcast.setTema("Nuevo tema");
 
-        // Reproducir 15000 veces la cancion
+        // Reproducir 1500 veces la cancion
         for(int i = 0; i < 15000; i++){
             cancion.meGusta();
 
         }
-        for(int i = 0; i < 5000; i++){
+        for(int i = 0; i < 3000; i++){
             cancion.reproducir();
         }
 
